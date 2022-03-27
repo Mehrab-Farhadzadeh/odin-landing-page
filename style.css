@@ -45,8 +45,8 @@ body {
   gap: 1em;
 }
 
-.hero .secondary-text,
-.hero .header .links {
+.hero .header .links,
+.hero .secondary-text {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -70,7 +70,10 @@ a {
 }
 
 .hero .hero-content .image img {
-  max-width: 400px;
+  max-width: 450px;
+  height: auto;
+  border: 4px solid #f9faf8;
+  border-radius: 1em;
 }
 
 .hero .main-text {
